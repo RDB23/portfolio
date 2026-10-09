@@ -190,6 +190,9 @@ h3{font-family:var(--display);font-weight:700;font-size:1.25rem;margin:0;line-he
 .line a.val{user-select:auto;color:var(--k);text-decoration:none}
 .copy{font-family:var(--mono);font-size:.72rem;background:transparent;color:var(--k);border:1px solid rgba(127,219,225,.4);border-radius:7px;padding:5px 11px;cursor:pointer;flex-shrink:0}
 .copy:hover{background:var(--accent-soft)}
+.copy.dl{text-decoration:none;display:inline-flex;align-items:center}
+.btn.resume{border-color:rgba(242,166,90,.55);color:var(--accent2)}
+.btn.resume:hover{border-color:var(--accent2);box-shadow:0 8px 30px -10px rgba(242,166,90,.5)}
 @media (max-width:760px){.contact{grid-template-columns:1fr;padding:30px 20px}}
 
 footer{padding-block:32px 44px;font-family:var(--mono);font-size:.75rem;color:var(--muted);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
@@ -221,6 +224,7 @@ footer{padding-block:32px 44px;font-family:var(--mono);font-size:.75rem;color:va
       <p class="lede rise d4">I build and maintain server-side APIs for production systems. Most of my work sits where orders turn into invoices, taxes and ledger entries, so correctness and reliability come first.</p>
       <div class="ctas rise d5">
         <a class="btn primary" href="#contact">Get in touch →</a>
+        <a class="btn resume" href="Rudradev_Bera_Resume.pdf" download="Rudradev_Bera_Resume.pdf"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>Download Resume</a>
         <a class="btn" href="#projects">View projects</a>
         <a class="btn" href="https://www.linkedin.com/in/rudradev-bera-36b0b6215" target="_blank" rel="noopener">LinkedIn ↗</a>
       </div>
@@ -336,6 +340,7 @@ footer{padding-block:32px 44px;font-family:var(--mono);font-size:.75rem;color:va
       <div class="lines">
         <div class="line"><span class="lab">Email</span><span class="val" id="email">rudradev2000bera@gmail.com</span><button class="copy" data-copy="email" type="button">Copy</button></div>
         <div class="line"><span class="lab">Phone</span><span class="val" id="phone">+91 84368 51591</span><button class="copy" data-copy="phone" type="button">Copy</button></div>
+        <div class="line"><span class="lab">Resume</span><span class="val">Rudradev_Bera_Resume.pdf</span><a class="copy dl" href="Rudradev_Bera_Resume.pdf" download="Rudradev_Bera_Resume.pdf">Download</a></div>
         <div class="line"><span class="lab">LinkedIn</span><a class="val" href="https://www.linkedin.com/in/rudradev-bera-36b0b6215" target="_blank" rel="noopener">in/rudradev-bera-36b0b6215 ↗</a></div>
       </div>
     </div>
